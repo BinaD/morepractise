@@ -1,0 +1,165 @@
+ 
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    font-size: 1em;
+    color: black;
+    background-color: lightgray;
+
+}
+
+/* General layout styles*/
+
+.wrapper {
+    min-width: 300px;
+    max-width: 1980px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.main {
+    background-color: white;
+    padding: 1.8em 1.8em 0 1.8em;
+}
+
+/* responsive images*/
+
+img {
+    max-width: 100%;
+    height: auto ;
+}
+  
+
+.main-nav {
+    background-color: darkslategray;
+    
+}
+
+.main-nav  a:hover {
+    background-color: lightgray;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding: 1em;
+    display: block;
+}
+
+.main-nav_list {
+    float: right;
+}
+
+.main-nav_list a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+.main-nav_list li {
+    float: left;
+}
+
+.fl-left {
+    float: left ;
+    margin: 0 1.6em 1.6em 0;
+}
+
+/* Three column layout*/
+
+.main-article {
+    margin: 1.6em 0 1.6em 0;
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+
+.primary-sidebar{
+    width: 21%;
+}
+
+.main-content {
+    width: 46%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    padding: 1em;
+}
+
+.secondary-sidebar {
+    width: 23%;
+} 
+
+.flt-img {
+    width: 100%;
+}
+
+.secondary-nav {
+     background-color: darkslategray;
+     margin-bottom: 1.6em; 
+}
+
+.secondary-nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: .8em 1em;
+    border-bottom: 1px solid white;
+}
+
+
+.main-footer {
+    background-color: darkslategray;
+    padding: 1em;
+    color: white;
+    clear: both;
+}
+
+/* Tow column layout */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thirdpg {
+    background-color: white;
+
+    width: 60%;
+    padding: 1.2em;
+    margin-right: 3%;
+    
+}
+
+.aside-qoute {
+   width: 33%;
+    
+}
+
+.clearfix::after,
+.clearfix::before {
+    display: table;
+    content: '';
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+
+
+
+
